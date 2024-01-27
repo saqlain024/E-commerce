@@ -14,7 +14,8 @@ export default function Counter() {
   return (
     <div>
       <div>
-        <p>Hello saqlain </p>
+      
+       
       </div>
     </div>
   );

@@ -3,5 +3,6 @@ export function fetchCount(amount = 1) {
     const response = await fetch('http://localhost:8080') 
     const data = await response.json()
     resolve({data})
-  })
+  }
+  );
 }

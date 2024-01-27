@@ -1,7 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { fetchCount } from './cartAPI';
 
-
 const initialState = {
   value: 0,
   status: 'idle',
